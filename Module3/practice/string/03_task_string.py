@@ -1,3 +1,3 @@
-# Подсчитать количество букв «а» во введенной строке
+string = str(input("Введите сообщение - "))
 
-# TODO: your code here
+print(string.count("а", 0, len(string)))
