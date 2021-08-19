@@ -1,6 +1,6 @@
-# Дан список имен.
-# Найдите самое длинное имя, если таких имен несколько - выведи любое их них
-
 names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
-
-# TODO: your code here
+maximum = ""
+for i in names:
+    if len(maximum) < len(i):
+        maximum = i
+print(maximum)
