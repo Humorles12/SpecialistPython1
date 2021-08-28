@@ -1,7 +1,18 @@
-# Напишите функцию, создающую(возвращающую) список заданной длины заполненный
-# произвольными целыми числами в заданном диапазоне.
-# , где size - размер генерируемого списка c элементами в диапазоне от of до to.
+import random
+
 
 def gen_list(size, of, to):
-    pass
+    i = 0
+    while i <= size:
+        numbers.append(random.randint(of, to))
+        i += 1
+    return numbers
 
+
+numbers = []
+l = int(input("Введие длинну: "))
+n = int(input("Введите начальное число: "))
+e = int(input("Введите конечное число: "))
+
+gen_list(l, n, e)
+print(numbers)
